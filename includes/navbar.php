@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  <div class="container">
-  <a class="navbar-brand <?php echo $page_title =='home'? 'active' : ''; ?>" href="#">Code Material <span class="sr-only">(current)</span></a>
+  <a class="navbar-brand <?php echo $page_title =='home'? 'active' : ''; ?>" href="index.php">Code Material <span class="sr-only">(current)</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

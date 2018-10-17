@@ -1,6 +1,15 @@
 <?php 
     session_start();
-    $page_title = "home"; 
+    const page_title = "home"; 
+	echo __FILE__ . "<br/>";
+	echo dirname(__FILE__) . "<br/>";
+	echo basename(__FILE__) . "<br/>";
+	
+	echo __DIR__ . "<br/>";
+	echo __LINE__ . "<br/>";
+	echo __NAMESPACE__ . "<br/>";
+	echo "\u{2764}" . "<br/>";
+	echo realpath();
 ?>
 <?php require_once("includes/header.php") ?>
     <body>
